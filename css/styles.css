@@ -64,6 +64,9 @@ body {
   display: flex;
   align-items: center;
 }
+.menu-item: {
+  padding: 24px 0;
+}
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -103,6 +106,7 @@ body {
   color: var(--primary-color-text);
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .contacts:hover,
 .contacts:focus {
@@ -126,8 +130,7 @@ body {
 
 .hero {
   background-color: var(--secondary-background-color);
-  padding-top: 188px;
-  padding-bottom: 292px;
+  padding: 188px 0;
 }
 .main-title {
   font-size: 56px;
@@ -249,8 +252,7 @@ body {
   text-align: center;
 }
 .foto-content {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -309,6 +311,7 @@ body {
 .menu-btn:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 /* ITEMS */
 .items-list {
