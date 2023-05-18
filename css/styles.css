@@ -63,6 +63,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+}
 
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -101,9 +102,8 @@ body {
 .contacts {
   font-style: normal;
   color: var(--primary-color-text);
- 
-  align-items: center;
 
+  align-items: center;
 }
 .contacts-item {
   display: flex;
