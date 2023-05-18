@@ -63,10 +63,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-}
-.menu-item: {
-  padding: 24px 0;
-}
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -94,8 +91,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--secondary-color-text);
+  padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -104,8 +101,12 @@ body {
 .contacts {
   font-style: normal;
   color: var(--primary-color-text);
-  display: flex;
+ 
   align-items: center;
+
+}
+.contacts-item {
+  display: flex;
   gap: 40px;
 }
 .contacts:hover,
