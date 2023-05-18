@@ -99,10 +99,12 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
-.contacts {
+.adresses {
   font-style: normal;
   color: var(--primary-color-text);
   align-items: center;
+}
+.contacts {
   display: flex;
   gap: 40px;
 }
