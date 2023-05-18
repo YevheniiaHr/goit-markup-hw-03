@@ -102,13 +102,11 @@ body {
 .contacts {
   font-style: normal;
   color: var(--primary-color-text);
-
   align-items: center;
-}
-.contacts-item {
   display: flex;
   gap: 40px;
 }
+
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
