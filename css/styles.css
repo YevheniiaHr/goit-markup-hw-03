@@ -174,7 +174,7 @@ body {
 /* FEATUERS */
 
 .features {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .features-list {
   display: flex;
@@ -200,7 +200,6 @@ body {
 }
 /* ABOUT US */
 .about-us {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .about-us-list {
