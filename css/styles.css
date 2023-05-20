@@ -50,13 +50,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  height: 67px;
 }
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
 }
 .navigation {
   display: flex;
@@ -72,7 +72,6 @@ body {
 }
 .logo {
   font-family: var(--secondary-font);
-
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -104,7 +103,6 @@ body {
 .adresses {
   font-style: normal;
   color: var(--primary-color-text);
-  align-items: center;
 }
 .contacts {
   display: flex;
@@ -227,11 +225,10 @@ body {
 .our-team-list {
   display: flex;
   gap: 24px;
-  flex-wrap: nowrap;
 }
-.photo-list {
+.photo-list-item {
   background-color: var(--background-color);
-  height: 380px;
+
   flex-basis: calc((100%-3 * 24px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
